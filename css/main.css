@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #bdbdbd ;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cc1, .cc2 , .cc3 , .cc4 , .cc5  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tc , .gc {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cr {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.setup {
+    width:95%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 2px;
+    margin: 10px;
+    box-shadow: 23px 24px 16px -8px rgba(184,184,184,1);
+    border-radius: 40px;
+    border: 4px solid #59365c;
+    background-color: rgb(255, 255, 255);
+    transition: border-radius .5s , border .5s;
+}
+
+.setup:hover {
+    border-radius: 10px;
+}
+
+.setup div {
+    margin: 10px;
+    padding: 10px;
+    border: 4px solid rgb(136, 138, 255);
+    background-color: 	rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.setup div:hover {
+    transform: scale(1.1);
+}
+
+.nclass {
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 2px;
+    margin: 10px;
+    box-shadow: 23px 24px 16px -8px rgba(184,184,184,1);
+    border: 4px solid #FFCC99;
+    transition: transform 0.5s, border-radius 0.5s;
+}
+
+.nclass:hover {
+    transform: scale(1.05);
+    border-radius: 45px;
+}
+
+.nclass>div , .nclass>input {
+    font-size: 30px;
+    padding: 10px;
+    margin:5px;
+}
+
+.alpha {
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 45px;
+    box-shadow: 23px 24px 16px -8px rgba(184,184,184,1);
+    border: 4px solid #669999;
+    transition: border-radius .5s , border .5s;
+}
+
+.alpha:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+
+.alpha>div , .alpha>input {
+    font-size: 30px;
+    padding: 10px;
+    margin:5px;
+    transition: transform 0.5s;
+}
+
+.setup div:hover{
+    transform: scale(1.05);
+}
+
+.button-container{
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    padding: 2px;
+    margin: 10px;
+    box-shadow: 23px 24px 16px -8px rgba(184,184,184,1);
+    border-radius: 35px;
+    border: 4px solid rgb(255, 141, 141);
+    transition: border-radius .5s , border .5s;
+}
+
+.button-container:hover {
+    border-radius: 10px;
+    border-color: rgb(0, 151, 151);
+}
+
+.cc1:nth-child(even) {
+    font-size:40px;
+    color: rgb(0, 54, 99);
+}
+
+.button-item{
+    margin: 10px;
+    padding: 10px;
+    border: 4px solid rgb(73, 189, 189);
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+.button-item:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+.tables1 , .tables2, .tables3, .tables4, .graphic1 , .graphic2 , .graphic3 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.table-item-scroll , .var-table-item-scroll , .char-table-item-scroll {
+    border: 4px solid rgb(161, 161, 161);
+    padding: 2px;
+    margin: 10px;
+    box-shadow: 23px 24px 16px -8px rgba(184,184,184,1);
+    transition: transform 1s , box-shadow 1s , width 3s ;
+    overflow-y: scroll;
+    height: 450px;
+    width: 940px;   
+    background-color: white;
+}
+
+.tables4 .char-table-item-scroll {
+    width: auto;
+}
+
+.graph-item {
+    border: 4px solid rgb(161, 161, 161);
+    box-shadow: 23px 24px 16px -8px rgba(184,184,184,1);
+    transition: transform 1s , box-shadow 1s ;
+}
+
+.graph-item:hover{
+    transform: scale(1.2) ;
+    box-shadow: 27px 28px 119px -10px rgba(204,204,204,1);
+}
+
+.container, .class-container , .characteristics-container {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    transition: transform 1s;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    transition: transform 3s;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+td:hover {
+    transform: scale(2);
+}
+
+.histogram {
+    height: 500px;
+    width: 550px;
+}
+
+.test1 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 20px;
+}
