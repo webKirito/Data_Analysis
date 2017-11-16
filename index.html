@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data Analyses</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+
+        
+
+    <div class="setup">
+        <div id="cdfs">CDF`s</div>
+        <div id="number">Number of classes</div>
+        <div id="alpha">Alpha</div>
+        <div id="tables">Tables</div>
+        <div id="graphics">Graphics</div>
+    </div>
+
+
+
+    <div class="cc1">
+            <div>25 elements</div>
+            <div class="button-container">
+                <div id = "n-25" class="button-item">Normal</div>
+                <div id = "e-25" class="button-item">Exponencial</div>
+                <div id = "v-25" class="button-item">Veibul</div>
+                <div id = "u-25" class="button-item">Uniform</div>
+            </div>
+            <div>70 elements</div>
+            <div class="button-container">
+                <div id = "n-70" class="button-item">Normal</div>
+                <div id = "e-70" class="button-item">Exponencial</div>
+                <div id = "v-70" class="button-item">Veibul</div>
+                <div id = "u-70" class="button-item">Uniform</div>
+                <div id = "l-70" class="button-item">Laplas</div>
+                <div id = "m-70" class="button-item">Mix</div>
+            </div>
+            <div>500 elements</div>
+            <div class="button-container">
+                <div id = "n-500" class="button-item">Normal</div>
+                <div id = "e-500" class="button-item">Exponencial</div>
+                <div id = "v-500" class="button-item">Veibul</div>
+                <div id = "u-500" class="button-item">Uniform</div>
+                <div id = "l-500" class="button-item">Laplas</div>
+                <div id = "m-500" class="button-item">Mix</div>
+                <div id = "p-500" class="button-item">Paretto</div>
+            </div>
+        </div>
+
+        <div class="cc4">
+            <div class="nclass">
+                <div>Enter number of classes and choose CDF.</div>
+                <input type="text" class="" id="nClasses">
+            </div>
+        </div>
+
+        <div class="cc5">
+            <div class="alpha">
+                <div>Enter alpha probability.</div>
+                <input type="text" value="0.05" id="alphaProb">
+            </div>
+        </div>
+    <div class="tc">
+    <div class="cc2">
+        <div class="button-container">
+            <div class="button-item" id="var-row-button">Variational table</div>
+            <div class="button-item" id="class-row-button">Class table</div>
+            <div class="button-item" id="char-row-button">Characteristics table</div>
+            <div class="button-item" id="error-element-button">Error table</div>
+        </div>
+    </div>
+    
+    <div class="tables1">
+        <div class="table-item-scroll">
+            <table class="container">
+                
+            </table>
+        </div>
+    </div>
+
+
+    <div class="tables2">
+        <div class="var-table-item-scroll">
+            <table class="class-container">
+              
+            </table>
+        </div>
+    </div>
+    
+    <div class="tables3">
+        <div class="char-table-item-scroll">
+            <table class="characteristics-container">
+                
+            </table>
+        </div>
+    </div>
+
+    <div class="tables4">
+            <div class="char-table-item-scroll">
+                <table class="error-container">
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="gc">
+    <div class="cc3">
+            <div class="button-container">
+                <div class="button-item" id="histogram-button">Histogram</div>
+                <div class="button-item" id="cdf-button">CDF</div>
+                <div class="button-item" id="error-button">Error</div>
+            </div>
+    </div>
+
+    <div class="graphic1">
+        <div class="graph-item">
+            <div id="histogram"></div>
+        </div>
+    </div>
+
+    <div class="graphic2">
+            <div class="graph-item">
+                    <div id="plotly-div"></div>
+            </div>
+    </div>
+    <div class="graphic3">
+            <div class="graph-item">
+                <div id="c-cdf"></div>
+            </div>
+    </div>
+    
+</div>
+
+<div class="gc">
+    <div class="graphic1">
+        <div class="graph-item">
+                <div id="log"></div>
+                <div id="laplasResult"></div>
+                
+        </div>
+    </div>
+    
+</div>
+
+
+
+    
+
+    
+
+
+
+
+
+
+    <script src="plotly-latest.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+
+    <script>
+    </script>
+</body>
+
+</html>
